@@ -83,6 +83,6 @@ sudo systemctl restart containerd
 }
 ```
 # Set up cluster
-LoadBalancer Configuration : [HaProxy] (haproxy.md)
+LoadBalancer Configuration : [HaProxy](haproxy.md)</br>
 Master Node Configuration  : [Master Node](02_master_node_configurations.md)</br>
 Worker Node Configuration  : [Worker Node](03_master_node_configurations.md)</br>
