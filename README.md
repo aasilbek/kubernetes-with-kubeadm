@@ -11,7 +11,7 @@ With stacked control plane nodes. This approach requires less infrastructure. Th
 
 ## Content
 
-* [HaProxy] (docs/haproxy.md)
+* [HaProxy](docs/haproxy.md)
 * [Master Node](docs/02_master_node_configurations.md)</br>
 * [Worker Node](docs/03_master_node_configurations.md)</br>
 
