@@ -1,10 +1,16 @@
+# Install HaProxy
 ```bash
-sudo apt update
-sudo apt upgrade
-sudo apt install haproxy -y
-systemctl status haproxy.service
+{ 
+    sudo apt update
+    sudo apt upgrade
+    sudo apt install haproxy -y
+    systemctl status haproxy.service
+}
+
+```
+## Update Haproxy config
+```bash
 sudo vim /etc/haproxy/haproxy.cfg
-systemctl restart haproxy.service
 ```
 
 ```bash
@@ -82,3 +88,9 @@ backend proxy-https
         server worker3 45.156.21.224:443 check
 ```
 
+
+## Restart Haproxy service
+
+```bash
+systemctl restart haproxy.service
+```
